@@ -8,7 +8,7 @@ A competition is composed of a phase or many phases defining the active times of
 
 Note: Files can be under a directory, they just have to be referenced by full path in the yaml. See the Competition YAML section below.
 
-
+```
 --\ example_competition.zip
   |
   |- competition.yaml
@@ -20,8 +20,10 @@ Note: Files can be under a directory, they just have to be referenced by full pa
   |- evaluation.md
   |- terms_and_conditions.md
   |- data.md
+```
 
 ## Example competition.yaml:
+```
 title: Example Competition Submit Scores
 description: An example competition where submissions should output the score they want
 image: logo.jpg
@@ -62,6 +64,7 @@ leaderboard:
         key: score
         index: 0
         sorting: desc
+```
 
 ## Competition YAML
 The competition.yaml file is the most important file in the bundle. It's what Codalab looks to to figure out the structure and layout of your competition, along with additional details. 
