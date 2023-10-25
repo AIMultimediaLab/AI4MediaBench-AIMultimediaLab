@@ -1,12 +1,12 @@
 ## Overview
-A competition bundle is simply a zip file containing the competition.yaml which defines different aspects and attributes of your competition, the logo, the html/markdown pages documenting your competition, and the data associated with your competition.
+A competition bundle represents a structured archive, typically in the form of a zip file, which encompasses vital components of your competition. These components include the competition.yaml file, which defines critical aspects and attributes of the competition, as well as supplementary elements such as the competition logo, HTML or Markdown pages documenting the competition, and the requisite data associated with the competition.
 
 ## What is a Competition?
-A competition is composed of a phase or many phases defining the active times of the competition, along with some other settings such as execution time limit. For each phase, they have one or more tasks attached. A task is the problem the submission should be solving, therefore submissions that solve a task can be thought of as a solution. A task consists of reference data, input data, scoring program, and an ingestion program. For starting kits in v2, they should be solutions included with the competition bundle. See the example competiton.yaml or the section Competition YAML below for a link with more info. For more information on the different types of data, see the lower section of this page.
+A competition comprises one or more phases that delineate the active periods within the competition's timeline. These phases are equipped with specific configurations, including execution time limits. Each phase, in turn, may feature one or more tasks, each task representing a problem that submitted solutions aim to solve. In essence, submissions addressing a task can be viewed as solutions. A task encompasses essential components, such as reference data, input data, a scoring program, and an ingestion program. Additionally, for a deeper understanding of the various types of data involved, refer to the lower section of this page.
 
 ## Example Competition Bundle Layout:
 
-Note: Files can be under a directory, they just have to be referenced by full path in the yaml. See the Competition YAML section below.
+Please note that files can be organized within a directory; however, they must be referenced using their full path in the YAML configuration. Further details can be found in the "Competition YAML" section below.
 ```
 --\ example_competition.zip
   |
@@ -66,36 +66,37 @@ leaderboard:
 ```
 
 ## Competition YAML
-The competition.yaml file is the most important file in the bundle. It's what Codalab looks to to figure out the structure and layout of your competition, along with additional details. 
+The competition.yaml file takes precedence as the central document within the bundle. It serves as the primary reference for AI4MediaBench to ascertain the structural framework of your competition, along with supplementary specifics.
 
 ## Data Types And Their Role:
 ### Reference Data:
-Reference data is typically the truth data that your participants predictions are compared against.
+Reference data, in most cases, represents the ground truth data against which participants' predictions are evaluated.
 
 ### Scoring Program
-The scoring program is the file that gets ran to determine the scores of the submission, typically either based on the submission's prediction outputs, or the results from the submission itself when compared with the reference data. Usually this should be a script like a python file, but it can generally be anything.
+The scoring program is the script executed to determine submission scores, often relying on prediction outputs or submission results compared with reference data. Typically, this script is written in languages like Python, but it can be of various formats.
 
-This is also paired with a metadata.yaml file with a key command that correlates to the command used to run your scoring program. There are also special directories available for use. For example here's what a metadata.yaml might look like:
+This script is accompanied by a metadata.yaml file that includes a key command, correlating with the command used to execute the scoring program. Special directories may also be accessible. For instance, a metadata.yaml may resemble the following:
 ```
 command: python3 /app/program/scoring.py /app/input/ /app/output/
 ```
-This specifies that python3 is going to run the scoring program (which is going to be located in /app/program/scoring.py) and from args using the input folder, which contains either the users own results or predictions from ingestion, to score and put the contents to the output folder also passed as an arg. The arguments are optional, but passing them may be more convenient.
+This command indicates that the scoring program (usually located at /app/program/scoring.py) is executed with Python 3 and operates on input data, which may contain user results or ingestion-generated predictions. The results are placed in the output folder, which is also specified as an argument. While arguments are optional, they can enhance convenience.
 
-The scoring program outputs a scores.json file containing the results for each columns of the leaderboard. After computing a submission, this file should look like something like this:
-
+The scoring program generates a scores.json file, featuring results for each leaderboard column. After processing a submission, this file typically resembles the following:
+```
 {"accuracy": 0.886, "duration": 42.4}
-The keys should match the leaderboard columns keys defined in the competition.yaml file.
+```
+The keys in this file should correspond to the leaderboard column keys defined in the competition.yaml file.
 
-The scoring program can also output detailed results as a HTML file for each submission. Click here for more information.
+The scoring program may also produce detailed results as HTML files for each submission.
 
 ### Ingestion Program
-The ingestion program is a file that gets ran to generate the predictions from the submissions if necessary. As well this is usually a python script or a script in another language, but it can generally be anything.
+The ingestion program is executed to generate predictions from submitted solutions when required. Like the scoring program, it is generally a script, often written in Python, although other formats are acceptable.
 
-The ingestion program is also paired with a metadata.yaml that specifies how to run it. It should have a key command that is the command used to run your ingestion program. The same special directories should be available to your ingestion program. For example an ingestion metdata.yaml might look like this:
+The ingestion program is complemented by a metadata.yaml file specifying the execution details. The metadata.yaml should include a key command, indicating the command used to run the ingestion program. Similar to the scoring program, special directories are accessible. An example of an ingestion metadata.yaml is as follows:
 ```
 command: python3 /app/program/ingestion.py /app/input_data/ /app/output/ /app/program /app/ingested_program
 ```
-Just like above this specifies we're using python to run our ingestion program. Please note it is not necessary to pass these directories as arguments to the programs, but it can be convenient.
+As demonstrated above, this specifies the use of Python to run the ingestion program. It's worth noting that passing these directories as arguments is not obligatory but can be advantageous.
 
 ### Input Data
-This is usually the test data used to generate predictions from a users code submission when paired with an ingestion program.
+Input data typically represents the test data used to generate predictions from user code submissions, particularly when coupled with an ingestion program.
