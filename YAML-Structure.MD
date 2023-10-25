@@ -1,5 +1,5 @@
-## Codalab Competition Definition Language
-This page provides a detailed description of attributes within the Codalab competition definition language, which uses YAML. This language is utilized for creating configuration files in Codalab competition bundles.
+## AI4Media Competition Definition Language
+This page provides a detailed description of attributes within the AI4Media competition definition language, which uses YAML. This language is utilized for creating configuration files in AI4Media competition bundles.
 
 ## Competition Properties
 
@@ -12,7 +12,7 @@ This page provides a detailed description of attributes within the Codalab compe
 
 - description: A brief description of the competition.
 - registration_auto_approve: True/False. If True, participation requests will not require approval by competition administration (defaults to False).
-- docker_image: Can specify a specific Docker image for the competition to use (defaults to codalab/codalab-legacy:py3).
+- docker_image: Can specify a specific Docker image for the competition to use.
 - make_programs_available: Can specify whether to share the ingestion and scoring program with participants or not (always available to competition organizers).
 - make_input_data_available: Can specify whether to share the input data with participants or not (always available to competition organizers).
 - queue: Queue submissions are sent to; can be used to specify competition-specific compute workers (defaults to the standard queue shared by all competitions). The queue should be referenced by its Vhost, not by its name. You can find the Vhost in Queue Management, accessible via the eye button labeled "View Queue Detail."
