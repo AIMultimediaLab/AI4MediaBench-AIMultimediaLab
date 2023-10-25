@@ -8,8 +8,7 @@ A competition is composed of a phase or many phases defining the active times of
 
 Note: Files can be under a directory, they just have to be referenced by full path in the yaml. See the Competition YAML section below.
 
-```
---\ example_competition.zip
+-- example_competition.zip
   |
   |- competition.yaml
   |- logo.png
@@ -20,7 +19,7 @@ Note: Files can be under a directory, they just have to be referenced by full pa
   |- evaluation.md
   |- terms_and_conditions.md
   |- data.md
-```
+
 
 ## Example competition.yaml:
 ```
