@@ -1,9 +1,9 @@
 ## Overview:
 This page serves as the central hub for the creation, management, modification, and removal of your competitions. Additionally, it offers a comprehensive overview of the competitions in which you are currently participating.
 
-### Competition create button (Form): This button will direct you to a wizard/form for initiating the creation of competitions. It enables you to meticulously progress through each stage of competition setup using our new creation/edit form. For detailed insights into this form/wizard, please consult the following [link](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/Competition-Creation-Form.MD)
+### Competition create button (Form): This button will direct you to a wizard/form for initiating the creation of competitions. It enables you to meticulously progress through each stage of competition setup using our new creation/edit form. For detailed insights into this form/wizard, please consult the following [link](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/Competition-Creation-Form.MD).
 
-### Competition create button (Upload): This button provides access to the competition bundle upload page. Here, you can submit a competition bundle, and upon successful validation and processing, you will be furnished with a link to your newly established competition. For comprehensive guidance regarding this process, please visit the following link: Competition Creation: Bundle.
+### Competition create button (Upload): This button provides access to the competition bundle upload page. Here, you can submit a competition bundle, and upon successful validation and processing, you will be furnished with a link to your newly established competition. For comprehensive guidance regarding this process, please visit the following [link][https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/Competition-Creation-Bundle.MD].
 
 ### Competitions I'm running tab: This tab is the default selection in the top navigation. Choosing this tab presents you with a comprehensive list of competitions that you currently oversee and manage, alongside the array of actions available for each.
 
