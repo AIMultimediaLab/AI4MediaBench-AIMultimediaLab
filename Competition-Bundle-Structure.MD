@@ -76,10 +76,10 @@ Reference data is typically the truth data that your participants predictions ar
 The scoring program is the file that gets ran to determine the scores of the submission, typically either based on the submission's prediction outputs, or the results from the submission itself when compared with the reference data. Usually this should be a script like a python file, but it can generally be anything.
 
 This is also paired with a metadata.yaml file with a key command that correlates to the command used to run your scoring program. There are also special directories available for use. For example here's what a metadata.yaml might look like:
-
+```
 command: python3 /app/program/scoring.py /app/input/ /app/output/
 This specifies that python3 is going to run the scoring program (which is going to be located in /app/program/scoring.py) and from args using the input folder, which contains either the users own results or predictions from ingestion, to score and put the contents to the output folder also passed as an arg. The arguments are optional, but passing them may be more convenient.
-
+```
 The scoring program outputs a scores.json file containing the results for each columns of the leaderboard. After computing a submission, this file should look like something like this:
 
 {"accuracy": 0.886, "duration": 42.4}
@@ -91,9 +91,9 @@ The scoring program can also output detailed results as a HTML file for each sub
 The ingestion program is a file that gets ran to generate the predictions from the submissions if necessary. As well this is usually a python script or a script in another language, but it can generally be anything.
 
 The ingestion program is also paired with a metadata.yaml that specifies how to run it. It should have a key command that is the command used to run your ingestion program. The same special directories should be available to your ingestion program. For example an ingestion metdata.yaml might look like this:
-
+```
 command: python3 /app/program/ingestion.py /app/input_data/ /app/output/ /app/program /app/ingested_program
 Just like above this specifies we're using python to run our ingestion program. Please note it is not necessary to pass these directories as arguments to the programs, but it can be convenient.
-
+```
 ### Input Data
 This is usually the test data used to generate predictions from a users code submission when paired with an ingestion program.
