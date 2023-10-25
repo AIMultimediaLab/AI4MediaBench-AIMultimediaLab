@@ -60,7 +60,7 @@ Contains all the organizer made pages, and some defaults.
 ### Phases
 Contains a diagram list with details on each phase in the order in which they're active. 
 
-###My Submissions
+### My Submissions
 This view contains a table with all your submissions, and allows you to upload new ones. 
 
 ### Results
