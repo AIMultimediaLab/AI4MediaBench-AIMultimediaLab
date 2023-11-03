@@ -15,7 +15,19 @@ Upon submission of your registration request, the benchmark organizers will be n
 
 ![Registration for a benchmark challenge](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/competition_registration.png?raw=true)
 
-## Submission of Entries
+## Competition Detail Tab Navigation
+Used to navigate between the different sections of the competition detail page.
+
+### Get Started
+Contains all the competition pages, and files.
+
+### Phases
+Contains a diagram list with details on each phase in the order in which they're active.
+
+### My Submissions
+This view contains a table with all your submissions, and allows you to upload new ones.
+
+#### Submission of Entries
 The process of submitting your contributions to a benchmark involves the uploading of a compressed file bundle (in the .zip format) that contains your response materials, adhering to the format stipulated by the benchmark organizers. 
 The benchmark allows for two discrete submission categories: code or results. Code submissions encompass a metadata file specifying the execution command, whereas result submissions provide the solution to the problem, without executing any code on the platform.
 
@@ -29,6 +41,10 @@ To initiate a submission, follow these steps:
 
 This interface also facilitates the creation of new submissions and allows you to review past submissions for each phase of the competition. Additionally, the Resources Interface provides an overview of all your submissions.
 
-# Reviewing Benchmark Outcomes
+### Results
 To stay informed about the progress and results of benchmarks in which you are actively involved, navigate to the "Results" tab. This section displays the leaderboard, offering a comprehensive view of benchmark standings and outcomes. 
 It should be noted that certain benchmarks may exclusively unveil their results upon the conclusion of the benchmarking campaign.
+
+### Forum
+This view contains the oficial forum of the competition.
+
