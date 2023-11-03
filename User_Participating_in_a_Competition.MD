@@ -7,7 +7,7 @@ Engaging in a benchmark initiative entails a structured process that commences w
 When embarking on your journey to contribute to a benchmark challenge, you will be prompted to acknowledge and comply with the benchmark rules, as well as complete your registration for the specific challenge. 
 Upon submission of your registration request, the benchmark organizers will be notified, and they will assess and approve your registration. It is imperative to diligently follow any subsequent directives furnished by the organizing committee.
 
-![Registration for a benchmark challenge](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/tree/main/images/competition_registration.png)
+![Registration for a benchmark challenge](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/competition_registration.png?raw=true)
 
 ## Submission of Entries
 The process of submitting your contributions to a benchmark involves the uploading of a compressed file bundle (in the .zip format) that contains your response materials, adhering to the format stipulated by the benchmark organizers. 
