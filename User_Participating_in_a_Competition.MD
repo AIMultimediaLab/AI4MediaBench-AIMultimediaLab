@@ -19,7 +19,7 @@ To initiate a submission, follow these steps:
 3. Access the "My Submissions" tab, where you can upload your response materials.
 4. Click on the paper clip icon and select your .zip file to commence the submission process.
 
-![Submission of Entries](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/competition_registration.png?raw=true)
+![Submission of Entries](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/submission_upload.png?raw=true)
 
 This interface also facilitates the creation of new submissions and allows you to review past submissions for each phase of the competition. Additionally, the Resources Interface provides an overview of all your submissions.
 
