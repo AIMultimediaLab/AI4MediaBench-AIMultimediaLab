@@ -1,7 +1,9 @@
 # Participation in Benchmark Procedures
 
 ## Enrollment and Configuration
-Engaging in a benchmark initiative entails a structured process that commences with [user registration](https://ai4media-bench.aimultimedialab.ro/accounts/signup) and account configuration. During the registration phase, essential personal information, namely your full name and a valid email address, must be provided.
+Engaging in a benchmark initiative entails a structured process that commences with [user registration](https://ai4media-bench.aimultimedialab.ro/accounts/signup) and account configuration. During the registration phase, essential personal information, namely your full name and a valid email address, must be provided, while acknowledging and accepting the provided Terms and Conditions. In the event of forgetting your password, a password recovery system is in place to facilitate retrieval.
+
+Moreover, an option to modify your password can be accessed by clicking on your name located in the upper right-hand corner of the interface. Additionally, within the same menu, you can also tailor your profile, adjust account settings, refine notification preferences, and establish organizations, each of which comes with corresponding administrative settings.
 
 <p align="center">
   <img src="https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/sign_up.png?raw=true" alt="Alt Text">
