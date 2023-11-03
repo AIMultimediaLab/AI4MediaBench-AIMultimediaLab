@@ -11,7 +11,7 @@ Moreover, an option to modify your password can be accessed by clicking on your 
 
 ## Registration for a Benchmark Challenge
 When embarking on your journey to contribute to a benchmark challenge, you will be prompted to acknowledge and comply with the benchmark rules, as well as complete your registration for the specific challenge. 
-Upon submission of your registration request, the benchmark organizers will be notified, and they will assess and approve your registration. It is imperative to diligently follow any subsequent directives furnished by the organizing committee.
+Upon submission of your registration request, the benchmark organizers will be notified, and they will assess and approve your registration. Certain competitions offer the option to collaborate as an organization and may display your organization's designation on the leaderboard when submitting entries. In specific instances, participation as a organization may necessitate a formal organization registration process. It is imperative to closely adhere to the instructions provided by the competition organizing committee to ensure compliance with the competition's guidelines and requirements
 
 ![Registration for a benchmark challenge](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/competition_registration.png?raw=true)
 
