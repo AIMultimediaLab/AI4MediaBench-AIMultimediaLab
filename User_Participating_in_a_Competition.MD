@@ -18,6 +18,8 @@ Upon submission of your registration request, the benchmark organizers will be n
 ## Competition Detail Tab Navigation
 Used to transition between distinct areas of interest and information within the competition framework.
 
+![Competition Detail Tab Navigation](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/competition_tab_navigation.png?raw=true)
+
 ### Get Started
 Contains all the competition pages, and files.
 
