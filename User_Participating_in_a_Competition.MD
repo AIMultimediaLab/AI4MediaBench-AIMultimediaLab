@@ -1,7 +1,7 @@
 # Participation in Benchmark Procedures
 
 ## Enrollment and Configuration
-Engaging in a benchmark initiative entails a structured process that commences with user registration and account configuration. During the registration phase, essential personal information, namely your full name and a valid email address, must be provided.
+Engaging in a benchmark initiative entails a structured process that commences with [user registration](https://ai4media-bench.aimultimedialab.ro/accounts/signup) and account configuration. During the registration phase, essential personal information, namely your full name and a valid email address, must be provided.
 
 ## Registration for a Benchmark Challenge
 When embarking on your journey to contribute to a benchmark challenge, you will be prompted to acknowledge and comply with the benchmark rules, as well as complete your registration for the specific challenge. 
