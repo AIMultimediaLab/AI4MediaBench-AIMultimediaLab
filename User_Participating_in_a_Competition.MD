@@ -21,7 +21,7 @@ Used to transition between distinct areas of interest and information within the
 ![Competition Detail Tab Navigation](https://github.com/AIMultimediaLab/AI4MediaBench-AIMultimediaLab/blob/main/images/competition_tab_navigation.png?raw=true)
 
 ### Get Started
-Contains all the competition pages, and files.
+Contains supplementary content for the competition participants as dedicated pages and files. These pages are accessible through tabs. Select the desired tab to navigate.
 
 ### Phases
 Contains a diagram list with details on each phase in the order in which they're active.
