@@ -27,7 +27,7 @@ Contains all the competition pages, and files.
 Contains a diagram list with details on each phase in the order in which they're active.
 
 ### My Submissions
-This view contains a table with all your submissions, and allows you to upload new ones.
+This view presents a comprehensive table that compiles all of your submitted entries while also providing you with the capability to upload new submissions.
 
 #### Submission of Entries
 The process of submitting your contributions to a benchmark involves the uploading of a compressed file bundle (in the .zip format) that contains your response materials, adhering to the format stipulated by the benchmark organizers. 
